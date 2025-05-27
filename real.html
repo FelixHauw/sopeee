@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Shopee</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff7043, #f34b18);
+      color: #333;
+    }
+    .login-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 360px;
+      margin: 40px auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .logo-text {
+      text-align: center;
+      margin-top: 40px;
+      color: white;
+    }
+    .logo-text img {
+      width: 120px;
+      height: auto;
+    }
+    .logo-text h1 {
+      font-size: 48px;
+      color: #fff;
+    }
+    .logo-text h2, .logo-text p {
+      color: #fce4ec;
+    }
+    .qr-button {
+      background-color: #d84315;
+      color: white;
+      border: none;
+    }
+    .qr-button:hover {
+      background-color: #bf360c;
+    }
+    .w-45 {
+      width: 45%;
+    }
+    .btn-outline-primary {
+      border-color: #1976d2;
+      color: #1976d2;
+    }
+    .btn-outline-primary:hover {
+      background-color: #1976d2;
+      color: white;
+    }
+    .btn-outline-danger {
+      border-color: #c62828;
+      color: #c62828;
+    }
+    .btn-outline-danger:hover {
+      background-color: #c62828;
+      color: white;
+    }
+    .footer {
+      background: #fafafa;
+      padding: 2rem 0;
+      margin-top: 50px;
+    }
+    .footer h6 {
+      color: #d84315;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container logo-text">
+    <img src="Assets/img/22-removebg-preview.png" alt="Shopee Logo">
+    <h2>Belanja di Shopee</h2>
+    <h1>Shopee</h1>
+    <p>Lebih hemat lebih cepat</p>
+  </div>
+
+  <div class="login-box">
+    <form>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0">Log In</h4>
+        <button type="button" class="btn btn-sm qr-button">Login dengan QR</button>
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="No. Handphone/Username/Email">
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+      <div class="mb-3">
+        <a href="#" class="text-decoration-none">Lupa Password?</a>
+      </div>
+      <button type="submit" class="btn btn-danger w-100 mb-3">LOG IN</button>
+      <div class="text-center mb-2">atau</div>
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-outline-primary w-45">Facebook</button>
+        <button class="btn btn-outline-danger w-45">Google</button>
+      </div>
+      <hr>
+      <div class="text-center">
+        Baru di Shopee? <a href="#">Daftar</a>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-3">
+          <h6>Layanan Pelanggan</h6>
+          <ul class="list-unstyled">
+            <li>Bantuan</li>
+            <li>Metode Pembayaran</li>
+            <li>ShopeePay</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Jelajahi Shopee</h6>
+          <ul class="list-unstyled">
+            <li>Tentang Kami</li>
+            <li>Karir</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Pembayaran</h6>
+          <ul class="list-unstyled">
+            <li>Transfer Bank</li>
+            <li>ShopeePay</li>
+            <li>Kartu Kredit</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Ikuti Kami</h6>
+          <ul class="list-unstyled">
+            <li>Facebook</li>
+            <li>Instagram</li>
+
+            <li>TikTok</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
